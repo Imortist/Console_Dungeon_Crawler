@@ -1,15 +1,13 @@
 package com.home;
 
-public class Navigation {
+class Navigation {
     private int position = 0;
 
-
-
-    public int getPosition() {
+    int getPosition() {
         return position;
     }
 
-    public void move() {
+    void move() {
         position++;
     }
 }
