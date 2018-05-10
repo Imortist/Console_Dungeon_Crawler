@@ -1,0 +1,5 @@
+Skeleton 5
+Bear 4
+Turtle 7
+Ghost 1
+Manticore 3

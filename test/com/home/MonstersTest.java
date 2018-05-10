@@ -2,10 +2,14 @@ package com.home;
 
 import org.junit.Test;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
 import static org.junit.Assert.assertNotNull;
 
 public class MonstersTest {
-    private Monster monster = new Monster("");
+    private Monsters monster = new Monsters("",0);
 
     @Test
     // OH NO! And I thought it was a fantasy!
